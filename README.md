@@ -54,3 +54,6 @@ Since this is the initial attempt at building an Android application, future enh
 
 ## Demo
 Link Demo: https://drive.google.com/file/d/1X9nRd8Tn3hpt4qKFjIjbimIp3ArSb2_I/view?usp=drive_link
+
+## Challenge 2:
+The Challenge 2 Quiz store in Testquiz folder. Write in Java, include 2 file Q1.java and Q2.java
