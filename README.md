@@ -51,3 +51,6 @@ This application is built using Kotlin on Android Studio. As this is my first pr
 Since this is the initial attempt at building an Android application, future enhancements could include:
 - Implementing a progress indicator during API calls.
 - Enhancing the UI with better styling and animations.
+
+## Demo
+Link Demo: https://drive.google.com/file/d/1X9nRd8Tn3hpt4qKFjIjbimIp3ArSb2_I/view?usp=drive_link
