@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20sp"
+       android:id="@+id/tv_1"
+       android:text="@string/name"
+       android:textAlignment="center"
+       />
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginHorizontal="20sp"
+       android:layout_gravity="center"
+      >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/border"
+          android:layout_gravity="center"
+          android:orientation="horizontal"
+          android:padding="5sp"
+          >
+         <EditText
+             android:layout_width="100sp"
+             android:layout_height="wrap_content"
+             android:id="@+id/edt_1"
+             android:text="1"
+             android:autofillHints="Nhập số tiền cần đổi"
+             android:inputType="number"
+             android:labelFor="@+id/edt_1"
+             android:background="@null"
+             android:layout_marginStart="5sp"
+             />
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="@android:color/darker_gray" />
+         <Spinner
+             android:layout_width="100sp"
+             android:layout_height="wrap_content"
+             android:id="@+id/spn_1"
+             android:textAlignment="textEnd"
+             android:dropDownHeight="200dp"
+             />
+      </LinearLayout>
+
+   </LinearLayout>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"
+       android:text="@string/button_text"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:layout_marginVertical="10sp"
+       android:id="@+id/btn_1"
+       />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginHorizontal="20sp"
+       android:layout_gravity="center"
+       >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/border"
+          android:layout_gravity="center"
+          android:orientation="horizontal"
+          android:padding="5sp"
+          >
+         <EditText
+             android:layout_width="100sp"
+             android:layout_height="wrap_content"
+             android:id="@+id/edt_2"
+             android:text="1"
+             android:autofillHints="Nhập số tiền cần đổi"
+             android:inputType="number"
+             android:labelFor="@+id/edt_2"
+             android:background="@null"
+             android:layout_marginStart="5sp"
+             />
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="@android:color/darker_gray" />
+         <Spinner
+             android:layout_width="100sp"
+             android:layout_height="wrap_content"
+             android:id="@+id/spn_2"
+             android:textAlignment="textEnd"
+             android:dropDownHeight="200dp"
+             />
+      </LinearLayout>
+
+   </LinearLayout>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"
+       android:text="@string/convert"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:layout_marginVertical="10sp"
+       android:id="@+id/btn_2"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/tv_2"
+       android:text="@string/result"
+       android:textAlignment="center"
+       />
+
+
+</LinearLayout>

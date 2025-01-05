@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="enter_currency">Nhập số tiền muốn đổi</string>
+    <string name="convert"> Chuyển đổi </string>
+    <string name="name"> Chuyển đổi tiền tệ</string>
+    <string name="button_text">Hoán đổi đơn vị</string>
+    <string name="result">Kết quả</string>
+</resources>
