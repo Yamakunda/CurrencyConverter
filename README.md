@@ -41,6 +41,11 @@ This application is built using Kotlin on Android Studio. As this is my first pr
 
 6. **Test and Debug**:
    - Validate the application by testing various scenarios such as empty input, incorrect data, and successful conversions.
+   
+## Challenges
+- Free exchange rate APIs often provide conversion rates only from USD to other currencies.  
+- To enable conversions between multiple currencies, the rates are calculated indirectly using the USD rate as a reference.  
+- This approach may introduce small errors in the conversion process.
 
 ## Potential Improvements
 Since this is the initial attempt at building an Android application, future enhancements could include:
